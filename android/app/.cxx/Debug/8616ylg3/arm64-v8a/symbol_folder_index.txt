@@ -1,0 +1,1 @@
+/home/mark/StudioProjects/ishop_app/build/app/intermediates/cxx/Debug/8616ylg3/obj/arm64-v8a

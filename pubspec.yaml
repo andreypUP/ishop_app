@@ -35,6 +35,21 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  injectable: ^2.5.0
+  get_it: ^7.7.0
+  go_router: ^15.1.1
+  flutter_blurhash: ^0.9.1
+  octo_image: ^2.1.0
+  flutter_svg: ^2.1.0
+  google_fonts: ^6.2.1
+  freezed: ^2.5.7
+  freezed_annotation: ^2.4.4
+  internet_connection_checker_plus: ^2.7.1
+  flutter_bloc: ^9.1.0
+  bloc: ^9.0.0
+  gap: ^3.0.1
+  json_annotation: ^4.9.0
+  cached_network_image: ^3.4.1
 
 dev_dependencies:
   flutter_test:
@@ -46,17 +61,35 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
+  injectable_generator: ^2.7.0
+  build_runner: ^2.4.13
+  go_router_builder: ^2.8.2
+  json_serializable: ^6.9.5
+  flutter_gen_runner: ^5.10.0
+  flutter_gen: ^5.10.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
-flutter:
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
+flutter_gen:
+  output: lib/gen/ # Optional (default: lib/gen/)
+  line_length: 80 # Optional (default: 80)
+
+  # Optional
+  integrations:
+    image: true
+    flutter_svg: true
+    rive: true
+    lottie: true
+
+flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/json/
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
