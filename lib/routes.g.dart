@@ -13,6 +13,13 @@ List<RouteBase> get $appRoutes => [
 RouteBase get $shellPageRoute => GoRouteData.$route(
       path: '/',
       factory: $ShellPageRouteExtension._fromState,
+      routes: [
+        GoRouteData.$route(
+          path: 'detail_page',
+          name: 'detail_page',
+          factory: $ListingDetailPageRouteExtension._fromState,
+        ),
+      ],
     );
 
 extension $ShellPageRouteExtension on ShellPageRoute {
@@ -20,6 +27,29 @@ extension $ShellPageRouteExtension on ShellPageRoute {
 
   String get location => GoRouteData.$location(
         '/',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
+extension $ListingDetailPageRouteExtension on ListingDetailPageRoute {
+  static ListingDetailPageRoute _fromState(GoRouterState state) =>
+      ListingDetailPageRoute(
+        state.uri.queryParameters['id']!,
+      );
+
+  String get location => GoRouteData.$location(
+        '/detail_page',
+        queryParams: {
+          'id': id,
+        },
       );
 
   void go(BuildContext context) => context.go(location);
