@@ -1,0 +1,2 @@
+/home/mark/StudioProjects/ishop_app/android/app/.cxx/Debug/8616ylg3/x86/CMakeFiles/edit_cache.dir
+/home/mark/StudioProjects/ishop_app/android/app/.cxx/Debug/8616ylg3/x86/CMakeFiles/rebuild_cache.dir

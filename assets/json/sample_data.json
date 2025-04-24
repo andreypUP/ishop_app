@@ -1,0 +1,250 @@
+{
+  "listings": [
+    {
+      "name": "Wireless Bluetooth Headphones",
+      "id": "prod_001",
+      "price": 99.99,
+      "description": "Premium noise-cancelling wireless headphones with 30-hour battery life",
+      "images": [
+        {
+          "id": "img_001_1",
+          "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+        },
+        {
+          "id": "img_001_2",
+          "url": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df"
+        },
+        {
+          "id": "img_001_3",
+          "url": "https://images.unsplash.com/photo-1593784991095-a205069470b6"
+        }
+      ],
+      "createdAt": "2023-05-15T10:30:00Z"
+    },
+    {
+      "name": "Smartphone 128GB",
+      "id": "prod_002",
+      "price": 799.00,
+      "description": "Latest smartphone with 6.5\" OLED display and triple camera system",
+      "images": [
+        {
+          "id": "img_002_1",
+          "url": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd"
+        },
+        {
+          "id": "img_002_2",
+          "url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+        },
+        {
+          "id": "img_002_3",
+          "url": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc"
+        },
+        {
+          "id": "img_002_4",
+          "url": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb"
+        }
+      ],
+      "createdAt": "2023-06-20T14:15:00Z"
+    },
+    {
+      "name": "Running Shoes",
+      "id": "prod_003",
+      "price": 129.95,
+      "description": "Lightweight running shoes with responsive cushioning",
+      "images": [
+        {
+          "id": "img_003_1",
+          "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+        },
+        {
+          "id": "img_003_2",
+          "url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2"
+        },
+        {
+          "id": "img_003_3",
+          "url": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28"
+        },
+        {
+          "id": "img_003_4",
+          "url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d"
+        },
+        {
+          "id": "img_003_5",
+          "url": "https://images.unsplash.com/photo-1605348532760-6753d2c43329"
+        }
+      ],
+      "createdAt": "2023-04-10T09:45:00Z"
+    },
+    {
+      "name": "Stainless Steel Water Bottle",
+      "id": "prod_004",
+      "price": 24.99,
+      "description": "1L insulated water bottle that keeps drinks cold for 24 hours",
+      "images": [
+        {
+          "id": "img_004_1",
+          "url": "https://images.unsplash.com/photo-1602143407151-7111542de6e8"
+        },
+        {
+          "id": "img_004_2",
+          "url": "https://images.unsplash.com/photo-1589365278144-c9e705f843ba"
+        },
+        {
+          "id": "img_004_3",
+          "url": "https://images.unsplash.com/photo-1605165566807-508fb529cf3e"
+        }
+      ],
+      "createdAt": "2023-07-05T11:20:00Z"
+    },
+    {
+      "name": "Wireless Keyboard and Mouse Combo",
+      "id": "prod_005",
+      "price": 59.99,
+      "description": "Ergonomic wireless keyboard and mouse set with 2.4GHz connectivity",
+      "images": [
+        {
+          "id": "img_005_1",
+          "url": "https://images.unsplash.com/photo-1558040455-16d3eaa844a6"
+        },
+        {
+          "id": "img_005_2",
+          "url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+        },
+        {
+          "id": "img_005_3",
+          "url": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7"
+        }
+      ],
+      "createdAt": "2023-03-12T16:40:00Z"
+    },
+    {
+      "name": "Cotton T-Shirt",
+      "id": "prod_006",
+      "price": 19.99,
+      "description": "100% organic cotton t-shirt available in multiple colors",
+      "images": [
+        {
+          "id": "img_006_1",
+          "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+        },
+        {
+          "id": "img_006_2",
+          "url": "https://images.unsplash.com/photo-1527719327859-c6ce80353573"
+        },
+        {
+          "id": "img_006_3",
+          "url": "https://images.unsplash.com/photo-1578932750355-5eb30ece487a"
+        },
+        {
+          "id": "img_006_4",
+          "url": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9"
+        }
+      ],
+      "createdAt": "2023-08-01T13:10:00Z"
+    },
+    {
+      "name": "Smart Watch",
+      "id": "prod_007",
+      "price": 249.99,
+      "description": "Fitness tracker with heart rate monitor and OLED touch display",
+      "images": [
+        {
+          "id": "img_007_1",
+          "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+        },
+        {
+          "id": "img_007_2",
+          "url": "https://images.unsplash.com/photo-1558433916-90a36b44753f"
+        },
+        {
+          "id": "img_007_3",
+          "url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12"
+        },
+        {
+          "id": "img_007_4",
+          "url": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a"
+        }
+      ],
+      "createdAt": "2023-05-30T08:25:00Z"
+    },
+    {
+      "name": "Backpack",
+      "id": "prod_008",
+      "price": 79.95,
+      "description": "Durable 30L backpack with laptop compartment and USB charging port",
+      "images": [
+        {
+          "id": "img_008_1",
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62"
+        },
+        {
+          "id": "img_008_2",
+          "url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27"
+        },
+        {
+          "id": "img_008_3",
+          "url": "https://images.unsplash.com/photo-1580015915218-685fd3cbfa97"
+        },
+        {
+          "id": "img_008_4",
+          "url": "https://images.unsplash.com/photo-1596659956641-ef602a63a4a0"
+        }
+      ],
+      "createdAt": "2023-06-15T12:50:00Z"
+    },
+    {
+      "name": "Coffee Maker",
+      "id": "prod_009",
+      "price": 89.99,
+      "description": "Programmable 12-cup coffee maker with thermal carafe",
+      "images": [
+        {
+          "id": "img_009_1",
+          "url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae"
+        },
+        {
+          "id": "img_009_2",
+          "url": "https://images.unsplash.com/photo-1511920170033-f8396924c348"
+        },
+        {
+          "id": "img_009_3",
+          "url": "https://images.unsplash.com/photo-1551033406-611cf9a28f67"
+        },
+        {
+          "id": "img_009_4",
+          "url": "https://images.unsplash.com/photo-1608355024223-6c3bfe20056e"
+        }
+      ],
+      "createdAt": "2023-04-22T07:15:00Z"
+    },
+    {
+      "name": "Yoga Mat",
+      "id": "prod_010",
+      "price": 34.99,
+      "description": "Eco-friendly non-slip yoga mat with carrying strap",
+      "images": [
+        {
+          "id": "img_010_1",
+          "url": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f"
+        },
+        {
+          "id": "img_010_2",
+          "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597"
+        },
+        {
+          "id": "img_010_3",
+          "url": "https://images.unsplash.com/photo-1545389336-cf090694435e"
+        },
+        {
+          "id": "img_010_4",
+          "url": "https://images.unsplash.com/photo-1518611012118-696072aa579a"
+        },
+        {
+          "id": "img_010_5",
+          "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b"
+        }
+      ],
+      "createdAt": "2023-07-18T15:30:00Z"
+    }
+  ]
+}
