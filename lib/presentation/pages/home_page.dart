@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
+import 'package:ishop_app/routes.dart';
 
 import '../bloc/favorites_bloc.dart';
 import '../bloc/listing_bloc.dart';
@@ -50,7 +52,9 @@ class _HomePageState extends State<HomePage> {
               final listing = listings[index];
               return ListingCard(
                 listing: listing,
-                onTap: () {},
+                onTap: () {
+                  ListingDetailPageRoute(listing.id).go(context);
+                },
                 onAddToCart: () {
                   context
                       .read<ListingBloc>()
